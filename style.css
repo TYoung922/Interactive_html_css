@@ -29,11 +29,12 @@ nav li a {
   text-decoration: none;
   color: rgb(230, 230, 230);
 }
-main.ridpage {
+/* body.ridpage {
   background-image: url(https://cdnb.artstation.com/p/assets/images/images/022/217/763/large/stephen-webster-riddles-in-the-dark-2.jpg?1574574579);
   background-size: cover;
   background-repeat: no-repeat;
-}
+  width: 100%;
+} */
 h1.riddles {
   text-align: center;
   color: white;
@@ -44,6 +45,13 @@ h2 {
 }
 p {
   color: white;
+  text-align: center;
+}
+section {
+  display: inline;
+}
+form {
+  text-align: center;
 }
 
 /* footer */
