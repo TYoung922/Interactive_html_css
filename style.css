@@ -42,10 +42,27 @@ body.ridpage {
   background-repeat: no-repeat;
   width: 100%;
 }
+body.dragon {
+  background-image: url(https://static1.cbrimages.com/wordpress/wp-content/uploads/2021/11/Metallic-Dragon-with-Hoard.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+h1.here {
+  background-color: hsl(241, 95%, 44%);
+  padding: 5px;
+  display: inline;
+}
 h1.riddles {
   text-align: center;
   color: white;
   text-decoration: underline;
+}
+h1,
+h2,
+h3,
+label {
+  color: white;
 }
 h2 {
   color: white;
@@ -53,6 +70,13 @@ h2 {
 p {
   color: white;
   text-align: center;
+}
+p.answers {
+  background-color: hsl(241, 95%, 44%);
+  color: hsl(241, 95%, 44%);
+}
+p.answers:hover {
+  color: white;
 }
 section {
   display: inline;
