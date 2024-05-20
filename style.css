@@ -78,6 +78,23 @@ p.answers {
 p.answers:hover {
   color: white;
 }
+.dquizset,
+.dquiz,
+.hover {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+h3.wyvren {
+  color: #ab4a04;
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
+}
+h3.wyrm {
+  color: #bbbe08;
+  text-shadow: -1px -1px 0 #2c0000, 1px -1px 0 #2c0000, -1px 1px 0 #2c0000,
+    1px 1px 0 #2c0000;
+}
 section {
   display: inline;
 }
