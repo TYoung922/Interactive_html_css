@@ -48,6 +48,11 @@ body.dragon {
   background-repeat: no-repeat;
   width: 100%;
 }
+body {
+  background-image: url(https://i5.walmartimages.com/asr/f369452f-44f1-480d-8a1b-663b8d559af3.23ea9cf9ae3d757846db3028c1870579.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
 h1.here {
   background-color: hsl(241, 95%, 44%);
   padding: 5px;
@@ -80,11 +85,28 @@ p.answers:hover {
 }
 .dquizset,
 .dquiz,
-.hover {
+.hover,
+.tolkien,
+.fan,
+.Interactive {
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
 }
+.wrap {
+  float: right; 
+  margin: 5px;
+ }
+ div.wrap img{
+  width: 350px;
+ }
+ .wrap2 {
+  float: left; 
+  margin: 5px;
+ }
+ div.wrap2 img{
+  width: 225px;
+ }
 h3.wyvren {
   color: #ab4a04;
   text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff,
