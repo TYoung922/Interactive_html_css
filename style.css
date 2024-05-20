@@ -53,84 +53,110 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-h1.here {
-  background-color: hsl(241, 95%, 44%);
-  padding: 5px;
-  display: inline;
-}
-h1.riddles {
-  text-align: center;
-  color: white;
-  text-decoration: underline;
-}
-h1,
-h2,
-h3,
-label {
-  color: white;
-}
-h2 {
-  color: white;
-}
-p {
-  color: white;
-  text-align: center;
-}
-p.answers {
-  background-color: hsl(241, 95%, 44%);
-  color: hsl(241, 95%, 44%);
-}
-p.answers:hover {
-  color: white;
-}
-.dquizset,
-.dquiz,
-.hover,
-.tolkien,
-.fan,
-.Interactive {
-  color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000;
-}
-.wrap {
-  float: right; 
-  margin: 5px;
- }
- div.wrap img{
-  width: 350px;
- }
- .wrap2 {
-  float: left; 
-  margin: 5px;
- }
- div.wrap2 img{
-  width: 250px;
- }
-h3.wyvren {
-  color: #ab4a04;
-  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff,
-    1px 1px 0 #ffffff;
-}
-h3.wyrm {
-  color: #bbbe08;
-  text-shadow: -1px -1px 0 #2c0000, 1px -1px 0 #2c0000, -1px 1px 0 #2c0000,
-    1px 1px 0 #2c0000;
-}
-section {
-  display: inline;
-}
-form {
-  text-align: center;
-}
+  h1.here {
+    background-color: hsl(241, 95%, 44%);
+    padding: 5px;
+    display: inline;
+  }
+  h1.riddles {
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+  }
+  h1,
+  h2,
+  h3,
+  label {
+    color: white;
+  }
+  h2 {
+    color: white;
+  }
+  p {
+    color: white;
+    text-align: center;
+  }
+  p.answers {
+    background-color: hsl(241, 95%, 44%);
+    color: hsl(241, 95%, 44%);
+  }
+  p.answers:hover {
+    color: white;
+  }
+  .dquizset,
+  .dquiz,
+  .hover,
+  .tolkien,
+  .fan,
+  .Interactive {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+  .wrap {
+    float: right;
+    margin: 5px;
+  }
+  div.wrap img {
+    width: 350px;
+  }
+  .wrap2 {
+    float: left;
+    margin: 5px;
+  }
+  div.wrap2 img {
+    width: 250px;
+  }
+  h3.wyvren {
+    color: #ab4a04;
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff,
+      1px 1px 0 #ffffff;
+  }
+  h3.wyrm {
+    color: #bbbe08;
+    text-shadow: -1px -1px 0 #2c0000, 1px -1px 0 #2c0000, -1px 1px 0 #2c0000,
+      1px 1px 0 #2c0000;
+  }
+  section {
+    display: inline;
+  }
+  form {
+    text-align: center;
+  }
+/* div.images {
+  width: 100px;
+} */
 
 /* footer */
 footer {
-  padding: 10px;
+  padding: 20px;
   text-align: center;
   background: #32006b;
   bottom: 0;
 }
+  a.wayne {
+    color: white;
+  }
+  
+  a.wayne:visited {
+    color: white;
+  }
+  
+  a.wayne:hover {
+    color: brown;
+  }
+  
+  a.wayne:active {
+    color: #fffc39;
+  }
+/* footer.link {
+  position: absolute;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background: #32006b;
+  bottom: 0;
+} */
 
 /* cards */
 .cards {
